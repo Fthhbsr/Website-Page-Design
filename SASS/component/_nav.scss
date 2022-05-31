@@ -1,0 +1,41 @@
+.navbar {
+    background-color: $bgColor;
+    color:$secondaryColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid $primaryColor;
+    padding: 15PX;
+    min-height: 100px;
+
+    
+    
+    .left-navbar {
+        h1 {          
+            font-size: 2rem;
+            font-weight: 700;
+            span {
+                color:$primaryColor;
+            }
+        }
+    }
+    .active {
+        color:$primaryColor;
+    }
+    .right-navbar {     
+        ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin-left: 40px;
+                
+                a {
+                    color: $secondaryColor;
+                    text-decoration: none;
+                    text-transform:uppercase;
+                }
+            }
+    }
+    
+}
+}
